@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPC GAME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top_content">
+            <div class="text">
+                 <p>ROCK</p>
+                 <p>PAPER</p>
+                 <p>SCISSORS</p>
+            </div>
+            <div class="right_side">
+                <div class="box1">
+                    <p>COMPUTER</p>
+                    <p>SCORE</p>
+                    <h2 id="cscore">0</h2>
+
+                </div>
+                <div class="box2">
+                    <P>YOUR</P>
+                    <p>SCORE</p>
+                    <h2 id="yscore">0</h2>
+                </div>
+            
+            </div>
+            
+        
+        </div>
+
+    
+        <div class="middle">
+            <div class="info">
+                <p class="user">YOU PICKED</p>
+                <p class="pc">PC PICKED</p>
+            </div>
+            
+             <div class="icon">
+                <img src="bg-triangle2.png" alt="" srcset="" class="tran">
+                
+                     <div class="rock your"><img src="rock img.png" alt=""></div>
+                     <div class="paper your"><img src="paper img.png" alt=""></div>
+                     <div class="scissors your"><img src="scissors img.png" alt=""></div>
+                
+                     
+                 </div>
+             </div>
+     
+             <div class="computer">
+                 <div class="rock "><img src="rock img.png" alt=""></div>
+             </div>
+             <div class="computer">
+                 <div class="paper "><img src="paper img.png" alt=""></div>
+             </div>
+             <div class="computer">
+                 <div class="scissors "><img src="scissors img.png" alt=""></div> 
+             </div>
+             
+                
+                
+                
+        <div class="bottom_right">
+            <button class="rules">RULES</button>
+            <button class="next_button" id="next_btn" onclick="window.location.href ='hurray.html';">Next</button>
+        </div> 
+
+        
+
+        <div class="rule_popup">
+            <p>Game rules</p>
+            <button class="sign">&#10006</button>
+            
+            <ul>
+                <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                <li>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.</li>
+                <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+                <li>If both players lay down the same hand, each player lays down another hand</li>
+            </ul>
+        </div>
+        <div class="win">
+            <h1 class="player">YOU WIN</h1>
+            <h3 class="agains">AGAINST PC</h3>
+            <button class="play">Play Again</button>
+        </div>
+        <div class="tieup">
+            <h1 class="tie">TIE UP</h1>
+            <button class="replay">REPLAY</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+        
+
+        
+        
+
+            
